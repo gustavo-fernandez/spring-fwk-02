@@ -1,4 +1,4 @@
-package com.spring.config;
+/*package com.spring.config;
 
 import com.spring.business.impl.CustomerBusinessImpl;
 import com.spring.business.spi.CustomerBusiness;
@@ -30,4 +30,4 @@ public class SpringConfiguration {
     throw new IllegalStateException("Db Type invalido");
   }
 
-}
+}*/
