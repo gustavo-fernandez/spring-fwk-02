@@ -6,6 +6,9 @@ import com.spring.repository.spi.CustomerRepository;
 public class PostgresCustomerRepository implements CustomerRepository {
   @Override
   public CustomerEntity findById(String id) {
-    return null;
+    return CustomerEntity.builder()
+      .id("2")
+      .name("Jorge PostgreSQL")
+      .build();
   }
 }

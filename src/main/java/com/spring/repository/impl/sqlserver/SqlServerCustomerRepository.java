@@ -6,6 +6,9 @@ import com.spring.repository.spi.CustomerRepository;
 public class SqlServerCustomerRepository implements CustomerRepository {
   @Override
   public CustomerEntity findById(String id) {
-    return null;
+    return CustomerEntity.builder()
+      .id("1")
+      .name("Juan SQL Server")
+      .build();
   }
 }
